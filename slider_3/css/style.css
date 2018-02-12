@@ -1,0 +1,38 @@
+.slider {
+	position: relative;
+	margin: 50px auto;
+	width: 800px;
+	overflow: hidden;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+.slides {
+	transition: all 0.5s;
+}
+
+.slide {
+	width: 800px;
+	height: 500px;
+	float: left;
+}
+
+.arrow {
+	position: absolute;
+	top: 50%;
+	color: white;
+	font-size: 3.5rem;
+	cursor: pointer;
+	transform: translate(0, -50%);
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+.arrow-left {
+	left: 20px;
+}
+
+.arrow-right {
+	right: 20px;
+}
