@@ -1,0 +1,22 @@
+img {
+	display: none;
+	margin: 0 auto;
+}
+
+img:first-child {
+	display: block;
+}
+
+.buttons {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+} 
+
+input {
+	margin: 0 10px; 
+	background-color: grey;
+	width: 70px;
+	font-weight: 800;
+}
+
